@@ -1,4 +1,4 @@
-package _28_Equals;
+package _28_EqualsMethod;
 import java.util.Objects;
 /**
  * Di bahasa pemrograman lain, untuk mengecek apakah sebuah object sama, biasanya menggunakan operator ==, di Java, operator == hanya untuk mengecek data primitif
