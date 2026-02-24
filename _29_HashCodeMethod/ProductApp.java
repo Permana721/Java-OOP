@@ -1,4 +1,4 @@
-package ObjectContract.HashCode;
+package _29_HashCodeMethod;
 import java.util.HashSet;
 import java.util.Set;
 
