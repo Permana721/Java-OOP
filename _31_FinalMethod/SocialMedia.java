@@ -1,19 +1,20 @@
-package _30_FinalClass;
+package _31_FinalMethod;
 /*
-Sebelumnya kita pernah menggunakan kata kunci final di Java
-Jika digunakan di variable, maka variable tersebut tidak bisa berubah lagi datanya
-Final pun bisa digunakan di class, dimana jika kita menggunakan kata kunci final sebelum class, maka kita menandakan bahwa class tersebut tidak bisa diwariskan lagi
-Secara otomatis semua class child nya akan error, karena class parent nya sudah final, tidak bisa di extend lagi
+Kata kunci final juga bisa digunakan di Method
+Jika sebuah method kita tambahkan kata kunci final, maka artinya method tersebut tidak bisa di override lagi di class child nya
+Ini sangat cocok jika kita ingin mengunci implementasi dari sebuah method agar tidak bisa diubah lagi oleh class child nya
  */
     class SocialMedia {
         String name;
     }
 
-    final class Facebook extends SocialMedia {
+    class Facebook extends SocialMedia {
         final void login(String username, String password) {
 //        ISI METHOD
         }
     }
 
-//    class FakeFacebook extends Facebook { ERROR, karena Facebook adalah final class, tidak bisa di extend
-//    }
+    class FakeFacebook extends Facebook {
+//        void login(String username, String password) {} ERROR, tidak bisa override method login karena method login di class Facebook sudah di deklarasikan dengan kata kunci final
+
+    }
