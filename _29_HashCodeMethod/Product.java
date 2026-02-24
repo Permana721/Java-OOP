@@ -1,4 +1,4 @@
-package ObjectContract.HashCode;
+package _29_HashCodeMethod;
 import java.util.Objects;
 /**
  * Method hashCode adalah method representasi integer object kita, mirip toString yang merupakan representasi String, hashCode adalah representasi integer
