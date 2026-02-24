@@ -1,4 +1,4 @@
-package _28_Equals;
+package _28_EqualsMethod;
 
 public class ProductApp {
     static void main(String[] args) {
