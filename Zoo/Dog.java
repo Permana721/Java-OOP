@@ -1,4 +1,11 @@
 package Zoo;
 
-public class Dog {
+public class Dog extends Animals{
+    public Dog(String name, int age){
+        super(name, age);
+    }
+
+    public void makeSound(){
+        System.out.println("Woof!");
+    }
 }
