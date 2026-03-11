@@ -4,7 +4,7 @@ package _20_Import;
  * Syarat class yang bisa digunakan jika package nya berbeda adalah class yang harus public
  */
 
-import _19_AccessModifiers.Product; // Ini adalah contoh penggunaan Import
+import _19_AccessModifiers.*; // Ini adalah contoh penggunaan Import
 
 public class ProductWeb {
     static void main(String[] args) {
