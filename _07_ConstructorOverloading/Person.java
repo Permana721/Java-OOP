@@ -14,11 +14,11 @@ public class Person {
     }
 
     Person(String paramName) { // Constructor 2 hanya berisi parameter paramName
-        name = paramName;
+        this(paramName, null);
     }
 
     Person() { // Constructor 3 tidak memiliki parameter
-
+        this(null);
     }
 
     void sayHello(String paramName) {
