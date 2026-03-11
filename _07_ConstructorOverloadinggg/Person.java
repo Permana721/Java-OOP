@@ -1,4 +1,4 @@
-package _07_ConstructorOverloading;
+package _07_ConstructorOverloadinggg;
 /**
  * Constructor Overloading adalah cara membuat constructor lebih dari satu,
  * dengan syarat tipe data parameter harus berbeda, atau jumlah parameter harus berbeda
