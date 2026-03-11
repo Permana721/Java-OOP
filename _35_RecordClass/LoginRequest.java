@@ -12,7 +12,11 @@ public record LoginRequest(String username, String password) {
 
     // Kita juga bisa membuat constructor tambahan, namun harus memanggil constructor utama
     public LoginRequest(String username){
-        this(username, "default password");
+        this(username, "");
         System.out.println("Constructor kedua dipanggil");
+    }
+
+    public LoginRequest(){
+        this("", "");
     }
 }
